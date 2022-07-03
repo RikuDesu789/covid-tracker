@@ -1,3 +1,11 @@
+This project was create with react and material UI, using the official api provided by the Japanese Ministry of Health. 
+
+<img width="1278" alt="Screen Shot 2022-07-03 at 22 36 40" src="https://user-images.githubusercontent.com/64245507/177043270-3d59c5ce-ae52-41c8-a6d3-4c64947e42ea.png">
+
+Please refer to their official WebPage for more information.
+(https://www.mhlw.go.jp/sitemap/index.html)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
