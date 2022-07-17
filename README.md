@@ -1,4 +1,4 @@
-###Daily updated covid tracker app
+### DAILY UPDATED COVID TRACKER (JAPAN)
 
 This project was create with react and material UI, using the official api provided by the Japanese Ministry of Health. 
 
