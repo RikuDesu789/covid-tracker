@@ -17,14 +17,14 @@ function App() {
 
 
 useEffect(() => {
-  setPatientsl(true)
+  setDeathsl(true)
   console.log(patientsl)
   fetch("https://data.corona.go.jp/converted-json/covid19japan-ndeaths.json")
     .then((response) => response.json())
     .then((data) => {
       data.reverse()
       setDeaths(data);
-      setPatientsl(false)
+      setDeathsl(false)
     });
 }, []);
 
@@ -41,25 +41,24 @@ useEffect(() => {
   }, []);
 
 useEffect(() => {
-  setCuresl(true)
+  setAlll(true)
     fetch("https://data.corona.go.jp/converted-json/covid19japan-ncures.json")
       .then((response) => response.json())
       .then((data) => {
         data.reverse()
-        // data = data.slice(0,2)
         setAll(data);
-        setCuresl(false)
+        setAlll(false)
       });
   }, []);
 
 useEffect(() => {
-  setAlll(true)
+  setCuresl(true)
     fetch("https://data.corona.go.jp/converted-json/covid19japan-all.json")
       .then((response) => response.json())
       .then((data) => {
         data.reverse()
         setCures(data);
-        setAlll(false)
+        setCuresl(false)
       });
   }, []);
 
